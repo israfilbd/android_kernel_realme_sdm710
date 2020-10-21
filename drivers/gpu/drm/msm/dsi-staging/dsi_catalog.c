@@ -72,7 +72,7 @@ static void dsi_catalog_cmn_init(struct dsi_ctrl_hw *ctrl,
 	ctrl->ops.set_continuous_clk = dsi_ctrl_hw_cmn_set_continuous_clk;
 	ctrl->ops.wait4dynamic_refresh_done =
 		dsi_ctrl_hw_cmn_wait4dynamic_refresh_done;
-
+		ctrl->ops.vid_engine_busy = dsi_ctrl_hw_cmn_vid_engine_busy;
 	switch (version) {
 	case DSI_CTRL_VERSION_1_4:
 		ctrl->ops.setup_lane_map = dsi_ctrl_hw_14_setup_lane_map;
