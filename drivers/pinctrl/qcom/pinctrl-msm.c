@@ -1,5 +1,6 @@
 /*
  * Copyright (c) 2013, Sony Mobile Communications AB.
+<<<<<<< HEAD   (76a728 Merge "net: ipc_router: Add bounds check on tx path")
  * Copyright (c) 2013-2018, The Linux Foundation. All rights reserved.
  * Copyright (c) 2023 Qualcomm Innovation Center, Inc. All rights reserved.
  *
